@@ -12,6 +12,8 @@ const NavigationItem = props => {
   );
 };
 
-NavigationItem.propTypes = {};
+NavigationItem.propTypes = {
+  active: PropTypes.bool.isRequired
+};
 
 export default NavigationItem;
